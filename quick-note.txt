@@ -1,0 +1,9 @@
+$ git add .
+$ git commit -am "flask-hello-world"
+$ git push origin master
+
+$ deactivate
+$ rm -rf env/
+$ python3 -m venv env
+$ source env/bin/activate
+$ pip install -r requirements.txt
