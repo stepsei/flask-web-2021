@@ -1,7 +1,10 @@
 # project/models.py
 
+
 from views import db
+
 import datetime
+
 
 class Task(db.Model):
 
@@ -23,9 +26,9 @@ class Task(db.Model):
         self.status = status
         self.user_id = user_id
 
-    
     def __repr__(self):
         return '<name {0}>'.format(self.name)
+
 
 class User(db.Model):
 

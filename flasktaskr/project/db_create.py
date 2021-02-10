@@ -1,5 +1,6 @@
 # project/db_create.py
 
+
 from views import db
 from models import Task
 from datetime import date
@@ -9,8 +10,8 @@ from datetime import date
 db.create_all()
 
 # insert data
-db.session.add(Task("Train People to like working for you", date(2021, 2, 2), 10, 1))
-db.session.add(Task("God Bless our homeland", date(2021, 2, 2), 10, 1))
+# db.session.add(Task("Finish this tutorial", date(2015, 3, 13), 10, 1))
+# db.session.add(Task("Finish Real Python", date(2015, 3, 13), 10, 1))
 
 # commit the changes
 db.session.commit()
