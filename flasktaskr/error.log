@@ -4,3 +4,5 @@
 404 error at 12-02-2021 14:23:49: http://127.0.0.1:5000/does_not_exist 
 500 error at 12-02-2021 14:30:04: http://127.0.0.1:5000/register/ 
 500 error at 12-02-2021 14:34:14: http://127.0.0.1:5000/register/ 
+404 error at 12-02-2021 19:38:08: http://localhost/this-route-does-not-exist/ 
+404 error at 12-02-2021 19:40:40: http://localhost/this-route-does-not-exist/ 
